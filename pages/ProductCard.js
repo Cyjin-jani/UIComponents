@@ -4,7 +4,6 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 
@@ -51,7 +50,7 @@ const Title = styled(Typography)`
     right: 0;
     bottom: 0;
   }
-  .&:after {
+  &:after {
     content: '';
     position: absolute;
     right: 0;
@@ -91,7 +90,7 @@ const ProductCard = () => {
           </ImageContainer>
           <ContentContainer>
             <Title gutterBottom variant="body1" component="p">
-            케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크
+            케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 케이크케이크 
             </Title>
             <DcRatio variant="body2" component="span">
              30%

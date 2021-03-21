@@ -14,6 +14,15 @@ export default function Home() {
       <Link href="/ProductCard">
         ProductCardPage
       </Link>
+      <br />
+      <br />
+      <br />
+
+      <Link href="/CheckTable">
+        CheckTable
+      </Link>
+
+
 
 
     </div>
