@@ -22,6 +22,14 @@ export default function Home() {
         CheckTable
       </Link>
 
+      <br />
+      <br />
+      <br />
+
+      <Link href="/Stickybox">
+        STICKY
+      </Link>
+
 
 
 
